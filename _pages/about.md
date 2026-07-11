@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<a href='https://www.cmu.edu/' target='_blank'>Carnegie Mellon University</a> | Computational Mathematics & Artificial Intelligence"
+subtitle: Carnegie Mellon University | Computational Mathematics & Artificial Intelligence
 
 profile:
   align: right
