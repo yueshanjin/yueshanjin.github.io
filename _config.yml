@@ -15,9 +15,9 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: robert jin, yueshan jin, carnegie mellon university, cmu, computational mathematics, artificial intelligence, portfolio
 lang: en 
-icon: ✦ 
+icon: "✦"
 
-url: https://robertjin.com 
+url: "https://robertjin.com"
 baseurl: "" 
 last_updated: true 
 impressum_path: 
@@ -111,7 +111,7 @@ bing_site_verification:
 
 blog_name: Journal 
 blog_description: Thoughts on Computational Math, AI, and Engineering
-permalink: /blog/:year/:title/
+permalink: "/blog/:year/:title/"
 lsi: false 
 
 pagination:
