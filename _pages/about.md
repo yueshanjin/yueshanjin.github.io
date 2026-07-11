@@ -2,33 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a> | Computational Mathematics & Artificial Intelligence
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: profile.jpg
+  image_circular: false # 如果你想让头像是圆形的，把这里改成 true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><i class="fas fa-graduation-cap"></i> Carnegie Mellon University</p>
+    <p><a href="https://www.linkedin.com/in/robert-yueshan-jin" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: false
+selected_papers: false
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm Robert (Yueshan) Jin. I am currently an undergraduate student at [Carnegie Mellon University](https://www.cmu.edu/) pursuing a dual degree in Computational and Applied Mathematics and Artificial Intelligence, with a minor in Economics. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My core interests lie in natural language processing (NLP), large language models (LLMs), and crafting practical engineering solutions. Previously, I was a Language Model Researcher at Peking University and Tibet University, where I optimized text extraction algorithms and constructed large-scale linguistic corpora. I also led a development group at Microsoft, designing an AI-guided cane to assist visually impaired individuals.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### 🚀 Latest Updates
+* **Summer 2026:** Honored to serve as a Pre-college Teaching Assistant for the [LCAL GCET](https://www.cmu.edu/pre-college/academic-programs/gcet.html) program at Carnegie Mellon University.
+* **Summer 2026:** Currently diving deep into imperative programming through the rigorous [15-122: Principles of Imperative Computation](https://www.cs.cmu.edu/~15122/home.shtml) course.
+
+---
+
+### 🔬 Selected Experiences
+* **Language Model Researcher** @ Peking University & Shenzhen University *(Jul 2024 - Aug 2025)*
+* **Development Group Lead** @ Microsoft *(Jun 2024 - Jul 2024)*
+* **Language Model Researcher** @ Tibet University *(Sep 2023 - Jun 2024)*
