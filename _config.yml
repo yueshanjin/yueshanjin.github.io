@@ -2,42 +2,38 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Robert
+title: blank 
+first_name: Robert (Yueshan)
 middle_name: 
 last_name: Jin
 contact_note: >
   Feel free to reach out for research collaborations or project inquiries.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: > 
   Carnegie Mellon University • Computational Mathematics & Artificial Intelligence
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: robert jin, carnegie mellon university, cmu, computational mathematics, artificial intelligence, portfolio
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ✦ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords: robert jin, yueshan jin, carnegie mellon university, cmu, computational mathematics, artificial intelligence, portfolio
+lang: en 
+icon: ✦ 
 
-url: https://robertjin.com # the base hostname & protocol for your site
-baseurl: "" # MUST be blank for custom domains (root)
-last_updated: true # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+url: https://robertjin.com 
+baseurl: "" 
+last_updated: true 
+impressum_path: 
+back_to_top: true 
 
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
 
-# repo color theme (Configured for a sleek, modern tech aesthetic)
-repo_theme_light: nord # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: tokyonight # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: nord 
+repo_theme_dark: tokyonight 
 repo_trophies:
   enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+  theme_light: flat 
+  theme_dark: gitdimmed 
 
-# External service URLs for repository page
-# To use a different instance or service for displaying GitHub stats and trophies,
-# update these URLs. These are used in the repository templates.
 external_services:
   github_readme_stats_url: https://github-readme-stats.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
@@ -75,9 +71,6 @@ al_folio:
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -89,44 +82,38 @@ socials_in_search: true
 posts_in_search: true
 bib_search: true
 
-# Dimensions
-max_width: 930px
+# Dimensions (UI Optimization: widened for desktop)
+max_width: 1100px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-# see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: false 
+serve_schema_org: false 
+og_image: 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
 analytics:
-  # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-  # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-  google: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-  cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-  pirsch: # your Pirsch analytics site ID (length 32 characters)
-  openpanel: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+  google: 
+  cronitor: 
+  pirsch: 
+  openpanel: 
 
-# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+google_site_verification: 
+bing_site_verification: 
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Journal # Renamed for a more elegant feel
+blog_name: Journal 
 blog_description: Thoughts on Computational Math, AI, and Engineering
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: false 
 
-# Pagination
 pagination:
   enabled: true
 
@@ -134,27 +121,22 @@ related_blog_posts:
   enabled: true
   max_related: 5
 
-# Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: yueshanjin/yueshanjin.github.io # Automatically mapping to your repo
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
-  category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
-  mapping: title # identify discussions by post title
-  strict: 1 # use strict identification mode
-  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
-  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  dark_theme: dark # name of the dark color scheme (preferred works well with al-folio dark mode)
-  light_theme: light # name of the light color scheme (preferred works well with al-folio light mode)
+  repo: yueshanjin/yueshanjin.github.io 
+  repo_id: 
+  category: Comments 
+  category_id: 
+  mapping: title 
+  strict: 1 
+  reactions_enabled: 1 
+  input_position: bottom 
+  dark_theme: dark 
+  light_theme: light 
   emit_metadata: 0
   lang: en
 
-# Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+disqus_shortname: al-folio 
 
-# External sources.
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
@@ -173,8 +155,7 @@ external_sources:
 
 newsletter:
   enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
-  # https://loops.so/docs/forms/custom-form
+  endpoint: 
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -196,7 +177,6 @@ collections:
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
-# Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -209,7 +189,6 @@ kramdown:
       line_numbers: false
       start_line: 1
 
-# Includes & excludes
 include: ["_pages"]
 exclude:
   - al-folio-upgrade-report.md
@@ -239,10 +218,8 @@ keep_files:
   - CNAME
   - .nojekyll
 
-# Use al_folio_core as the theme runtime; local files can still override theme files.
 theme: al_folio_core
 
-# Plug-ins
 plugins:
   - jekyll-3rd-party-libraries
   - jekyll-archives-v2
@@ -264,8 +241,6 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-
-  # al-folio plugins
   - al_folio_core
   - al_icons
   - al_folio_cv
@@ -283,7 +258,6 @@ plugins:
   - al_comments
   - al_newsletter
 
-# Sitemap settings
 defaults:
   - scope:
       path: "assets"
@@ -361,32 +335,10 @@ enable_publication_badges:
 
 filtered_bibtex_keywords:
   [
-    abbr,
-    abstract,
-    additional_info,
-    altmetric,
-    annotation,
-    arxiv,
-    award,
-    award_name,
-    bibtex_show,
-    blog,
-    code,
-    dimensions,
-    eprint,
-    google_scholar_id,
-    hal,
-    html,
-    inspirehep_id,
-    pdf,
-    pmid,
-    poster,
-    preview,
-    selected,
-    slides,
-    supp,
-    video,
-    website,
+    abbr, abstract, additional_info, altmetric, annotation, arxiv, award,
+    award_name, bibtex_show, blog, code, dimensions, eprint, google_scholar_id,
+    hal, html, inspirehep_id, pdf, pmid, poster, preview, selected, slides,
+    supp, video, website,
   ]
 
 max_author_limit: 3 
@@ -416,11 +368,7 @@ imagemagick:
   input_directories:
     - assets/img/
   input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
-    - ".gif"
+    - ".jpg", ".jpeg", ".png", ".tiff", ".gif"
   output_formats:
     webp: "-auto-orient -quality 85"
 
@@ -446,7 +394,6 @@ enable_video_embedding: false
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
-# (Library hashes removed for brevity in summary, preserved exactly below)
 third_party_libraries:
   download: false 
   bootstrap-table:
@@ -655,7 +602,7 @@ third_party_libraries:
 
 jekyll_get_json:
   - data: resume
-    json: assets/json/resume.json # it can also be an url
+    json: assets/json/resume.json
 
 jsonresume:
   - basics
