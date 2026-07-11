@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a> | Computational Mathematics & Artificial Intelligence
+subtitle: "<a href='https://www.cmu.edu/' target='_blank'>Carnegie Mellon University</a> | Computational Mathematics & Artificial Intelligence"
 
 profile:
   align: right
   image: profile.jpg
-  image_circular: false # 如果你想让头像是圆形的，把这里改成 true
+  image_circular: false
   more_info: >
     <p><i class="fas fa-graduation-cap"></i> Carnegie Mellon University</p>
     <p><a href="https://www.linkedin.com/in/robert-yueshan-jin" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
